@@ -1,0 +1,150 @@
+html {
+  background-image: url(img/rainbowBG.jpg);
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 20px auto;
+  width: 650px;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.main {
+  width: 500px;
+  padding: 0px 75px;
+  text-align: center;
+}
+
+.parameters {
+  width: 450px;
+  padding-left: 30px;
+}
+
+.size {
+  font-style: italic;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 42px;
+}
+
+.main-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid grey;
+  height: 200px;
+  width: 400px;
+  background-color: rgb(255, 255, 0);
+}
+
+.rgb {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+#rgb-1 {
+  font-weight: 700;
+}
+
+.inp-1 {
+  background-color: red;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  width: 52px;
+  text-align: center;
+}
+
+.inp-2 {
+  background-color: green;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  width: 52px;
+  text-align: center;
+}
+
+.inp-3 {
+  background-color: blue;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  width: 52px;
+  text-align: center;
+}
+
+.btn-bl {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-right: 25px;
+  width: 50px;
+  height: 20px;
+}
+
+.btn-wh {
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 25px;
+  width: 50px;
+  height: 20px;
+}
+
+.prev {
+  color: white;
+  background-color: grey;
+}
+
+#final {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.prev {
+  border-radius: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 200);
+}
+
+.try {
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-bl:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.btn-wh:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.prev:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+a:hover {
+  color: red;
+}
+
+#inp-width {
+  background: grey;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  width: 52px;
+  text-align: center;
+}
+
+#inp-height {
+  background: grey;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  width: 52px;
+  text-align: center;
+}

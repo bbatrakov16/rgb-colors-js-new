@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rgb-colors</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <h1>RGB Colors</h1>
+
+      <p>
+        An RGB color is specified by:
+        <span class="rgb" id="rgb-1">rgb(red,green,blue)</span>
+      </p>
+
+      <p class="parameters">
+        The parameters red, green and blue specify the intensity of the color: 0
+        (<span class="size">lowest</span>) to 255 (<span class="size"
+          >highest</span
+        >)
+      </p>
+
+      <hr />
+
+      <h3 class="try">Try it out for yourself...</h3>
+
+      <p>
+        <span class="width-height-inputs">Preview width:</span>
+        <input type="number" min="50" max="400" step="10" id="inp-width" />
+        <span class="width-height-inputs">Preview height:</span>
+        <input type="number" min="50" max="200" step="10" id="inp-height" />
+      </p>
+
+      <p>
+        red:
+        <input
+          class="inp-1"
+          id="red"
+          type="number"
+          name="red"
+          min="0"
+          max="255"
+        />
+        green:
+        <input
+          class="inp-2"
+          id="green"
+          type="number"
+          name="green"
+          min="0"
+          max="255"
+        />
+        blue:
+        <input
+          class="inp-3"
+          id="blue"
+          type="number"
+          name="blue"
+          min="0"
+          max="255"
+        />
+      </p>
+      <div class="btn-group">
+        <p>
+          <button class="btn-bl" id="btn-black">black</button>
+          <button class="btn-wh" id="btn-white">white</button>
+        </p>
+      </div>
+      <div class="main-box" id="display"></div>
+      <p>
+        <button class="prev" id="btn-prev">Preview</button>
+      </p>
+
+      <p class="rgb" id="pRGB">rgb(255, 255, 0)</p>
+
+      <hr />
+
+      <p id="final">
+        <a href="https://en.wikipedia.org/wiki/RGB_color_model" target="_blank"
+          >Learn more</a
+        >
+        about RGB Color on Wikipedia
+      </p>
+    </div>
+  </body>
+</html>
